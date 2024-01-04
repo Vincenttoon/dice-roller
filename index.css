@@ -1,0 +1,20 @@
+:root {
+    --blue: #1E00E4;
+    --purple: #9000E4;
+    --light: #F6F4FF;
+    --dark: #090046;
+    --yellow: #C6E400;
+    --green: #00E490;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(
+
+    );
+}
