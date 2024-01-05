@@ -1,10 +1,10 @@
 let images = [
-  "assets/dice-1.jpg",
-  "assets/dice-2.jpg",
-  "assets/dice-3.jpg",
-  "assets/dice-4.jpg",
-  "assets/dice-5.jpg",
-  "assets/dice-6.jpg",
+  "assets/classic/dice-1.jpg",
+  "assets/classic/dice-2.jpg",
+  "assets/classic/dice-3.jpg",
+  "assets/classic/dice-4.jpg",
+  "assets/classic/dice-5.jpg",
+  "assets/classic/dice-6.jpg",
 ];
 
 let dice = document.querySelectorAll("img");

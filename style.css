@@ -44,7 +44,7 @@ body{
 
 .dice {
     color: var(--green);
-    background-color: #00E490;
+    background-color: var(--dark);
     height: 13vh;
     width: 13vh;
 }
