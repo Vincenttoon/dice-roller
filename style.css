@@ -70,4 +70,23 @@ button {
     width: 150px;
     letter-spacing: 1px;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.shake {
+    animation: shake 0.5s infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(8deg)
+    }
+
+    50% {
+        transform: rotate(-8deg)
+    }
+
+    100% {
+        transform: rotate(8deg);
+    }
 }
