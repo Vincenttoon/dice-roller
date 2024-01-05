@@ -42,6 +42,12 @@ body{
     align-items: center;
 }
 
+.dice {
+    color: var(--green);
+    background-color: #00E490;
+    height: 13vh;
+    width: 13vh;
+}
 .dice-wrapper {
     width: 90%;
     display: flex;
@@ -53,4 +59,15 @@ p {
     font-size: 16px;
     margin: 30px 0;
     font-weight: 500;
+}
+
+button {
+    background-color: var(--purple);
+    border: none;
+    outline: none;
+    color: var(--light);
+    padding: 15px 0;
+    width: 150px;
+    letter-spacing: 1px;
+    border-radius: 5px;
 }
