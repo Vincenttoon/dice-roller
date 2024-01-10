@@ -38,6 +38,15 @@
     width: 75%;
     font-size: 1em;
     font-family: $Yatra;
+
+    &:hover {
+      background-color: $dark;
+      color: $light-yellow;
+    }
+    &:active {
+      background-color: $dark;
+      color: $light-yellow;
+    }
   }
 
   .resultText {

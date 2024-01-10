@@ -100,7 +100,7 @@
             transition: 0.3s ease all;
 
             &:hover {
-              background: rgba($light, 0.1);
+              background: rgba($light-yellow, 0.1);
             }
             &:active {
               border-radius: calc(#{$borderRadius} + 6px);
@@ -134,9 +134,9 @@
         }
 
         &:hover {
-          border-color: $primary;
-          background: rgba($primary, 0.1);
-          color: $primary;
+          border-color: $light;
+          background: rgba($light, 0.1);
+          color: $light;
         }
         &:active {
           border-color: $primary;
@@ -160,7 +160,7 @@
       padding-right: 2rem;
 
       &:hover {
-        color: $primary;
+        color: $light-yellow;
       }
 
       @include breakpoint(md) {

@@ -9,7 +9,7 @@
 .title-div {
   text-align: center;
   margin-bottom: 20px;
-  
+
   .page-title {
     color: $light;
     text-shadow: 1px 1px 2px $dark;
@@ -63,6 +63,14 @@
     border-radius: 5px;
     cursor: pointer;
     /* Add any additional styles for button here */
+    &:hover {
+      background-color: $dark;
+      color: $light-yellow;
+    }
+    &:active {
+      background-color: $dark;
+      color: $light-yellow;
+    }
   }
 
   .shake {
