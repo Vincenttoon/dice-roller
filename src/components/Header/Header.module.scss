@@ -3,12 +3,20 @@
 .header {
   background: $dark;
   width: 100%;
-  height: $headerHeight;
+  height: $headerHeight; /* Set your desired height here */
   padding: 0 1.5rem;
+  position: fixed; /* Change to 'sticky' if you want it relative to the viewport's top */
+  top: 0; /* Anchors to the top */
+  left: 0; /* Anchors to the left */
+  z-index: 100; /* Ensure it's above other elements */
   @include breakpoint(md) {
     padding: 0 3rem;
   }
   transition: 0.3s ease all;
+
+  h2 {
+    padding-left: 1.2rem;
+  }
 
   &__content {
     overflow: hidden;
@@ -41,6 +49,7 @@
       justify-content: center;
       align-items: center;
       text-align: center;
+      // padding-right: 4rem;
       background: rgba($dark, 0.9);
       backdrop-filter: blur(2px);
       transform: translate(0);
@@ -90,6 +99,10 @@
             }
           }
         }
+        &.isMenu {
+          transform: translate(100%);
+          padding: 0;
+        }
       }
       button {
         cursor: pointer;
@@ -135,6 +148,7 @@
       font-size: 2rem;
       transition: 0.3s ease all;
       position: relative;
+      padding-right: 2rem;
 
       &:hover {
         color: $primary;

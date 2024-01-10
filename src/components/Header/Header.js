@@ -25,7 +25,7 @@ const Header = () => {
   });
 
   const menuToggleHandler = () => {
-    setMenuOpen((p) => !p);
+    setMenuOpen((prevMenuOpen) => !prevMenuOpen);
   };
 
   return (
@@ -35,7 +35,7 @@ const Header = () => {
 
         <nav
           className={`${classes.header__content__nav} ${
-            menuOpen && size.width < 768 ? classes.isMenu : ""
+            menuOpen ? classes.isMenu : ""
           }`}
         >
           <ul>

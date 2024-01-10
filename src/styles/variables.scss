@@ -1,27 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&family=Poppins:wght@400;500;600;700;800&family=Yatra+One&display=swap");
 
-$Poppins: 'Poppins', sans-serif;
+$Yatra: "Yatra One", sans-serif;
 
 // colors
 $dark: #090046;
-$light: #F6F4FF;
+$light: #f6f4ff;
 $primary: rgb(162, 162, 246);
 $bg: rgb(244, 244, 255);
-$blue: #1E00E4;
-$dark-blue:#120089;
-$light-purple:#907fff;
-$purple: #9000E4;
+$blue: #1e00e4;
+$dark-blue: #120089;
+$light-purple: #907fff;
+$purple: #9000e4;
 $dark-purple: #5a008e;
-$yellow: #C6E400;
+$yellow: #c6e400;
 $dark-yellow: #6a7a00;
 $light-yellow: #f2ff9b;
-$green: #00E490;
+$green: #00e490;
 $dark-green: #007a4d;
 $light-green: #94ffd8;
-$red: #E40054;
+$red: #e40054;
 $dark-red: #7c002e;
 $light-red: #ffb9d3;
-$grey: #76717B;
+$grey: #76717b;
 
 // spacing
 $spacing-md: 16px;
@@ -34,10 +34,10 @@ $borderRadius: 12px;
 $headerHeight: 100px;
 
 @mixin breakpoint($point) {
-    @if $point == md {
-        // 768px
-        @media (min-width: 48em) {
-            @content;
-        }
+  @if $point == md {
+    // Change the minimum width from 48em (768px) to 56.25em (900px)
+    @media (min-width: 68.75em) {
+      @content;
     }
+  }
 }

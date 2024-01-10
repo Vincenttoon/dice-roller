@@ -8,13 +8,27 @@ html {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 body{
     height: 100vh;
-    background: linear-gradient(
-        #F6F4FF,
-        #090046
-    ) 0 100% no-repeat;
+    font-family: $Yatra;
+    background-color: $dark;
     background-size: 100% 50%;
 }
+
+// * {
+//   box-sizing: border-box;
+//   margin: 0;
+// }
+
+// body {
+//   width: 100%;
+//   font-family: $Poppins;
+//   color: $dark;
+// }
+
+// #root {
+//   height: 100%;
+// }

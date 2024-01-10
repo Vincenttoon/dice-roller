@@ -2,7 +2,11 @@
 
 .container {
     height: calc(100vh - #{$headerHeight});
-    background: $bg;
+    background: linear-gradient(
+        #F6F4FF,
+        #090046
+    ) 0 100% no-repeat;
+    background-size: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
