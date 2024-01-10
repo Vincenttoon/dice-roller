@@ -50,6 +50,11 @@ const Header = () => {
               </a>
             </li>
             <li>
+              <a href="/d12" onClick={menuToggleHandler}>
+                D-12
+              </a>
+            </li>
+            <li>
               <a href="/d10" onClick={menuToggleHandler}>
                 D-10
               </a>

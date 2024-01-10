@@ -35,7 +35,8 @@ const Classic = () => {
 
       document.querySelector("#total").innerHTML =
         "Your roll is " + (dieOneValue + 1 + (dieTwoValue + 1));
-    }, 1000); // Adjust the timeout duration as needed for the animation
+    }, 1000);
+    document.querySelector("#total").style.fontSize = "1.5rem"; // Adjust the timeout duration as needed for the animation
   };
 
   useEffect(() => {
