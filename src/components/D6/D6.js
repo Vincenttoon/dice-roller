@@ -49,40 +49,45 @@ const D6 = () => {
   }, [rollTwo]);
 
   return (
-    <div className="container">
-      <div className="dice-wrapper">
-        <img
-          src={dieSrc1}
-          className={isRolling ? "dice shake" : "dice"}
-          alt="D6"
-        />
-        {rollTwo && (
+    <div className="page">
+      <div className="title-div">
+        <h1 className="page-title-2">D-6</h1>
+      </div>
+      <div className="container">
+        <div className="dice-wrapper">
           <img
-            src={dieSrc2}
+            src={dieSrc1}
             className={isRolling ? "dice shake" : "dice"}
             alt="D6"
           />
-        )}
+          {rollTwo && (
+            <img
+              src={dieSrc2}
+              className={isRolling ? "dice shake" : "dice"}
+              alt="D6"
+            />
+          )}
+        </div>
+        <p className="resultText">{rollResult}</p>
+        <button
+          onClick={() => {
+            setRollTwo(false);
+            rollDice();
+          }}
+          disabled={isRolling}
+        >
+          ROLL ONE
+        </button>
+        <button
+          onClick={() => {
+            setRollTwo(true);
+            rollDice();
+          }}
+          disabled={isRolling}
+        >
+          ROLL TWO
+        </button>
       </div>
-      <p className="resultText">{rollResult}</p>
-      <button
-        onClick={() => {
-          setRollTwo(false);
-          rollDice();
-        }}
-        disabled={isRolling}
-      >
-        ROLL ONE
-      </button>
-      <button
-        onClick={() => {
-          setRollTwo(true);
-          rollDice();
-        }}
-        disabled={isRolling}
-      >
-        ROLL TWO
-      </button>
     </div>
   );
 };
