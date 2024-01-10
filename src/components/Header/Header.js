@@ -31,7 +31,9 @@ const Header = () => {
   return (
     <header className={classes.header}>
       <div className={classes.header__content}>
-        <h2 className={classes.header__content__logo}>Dice Roller</h2>
+        <a className="a-head" href="/">
+          <h2 className={classes.header__content__logo}>Dice Roller</h2>
+        </a>
 
         <nav
           className={`${classes.header__content__nav} ${

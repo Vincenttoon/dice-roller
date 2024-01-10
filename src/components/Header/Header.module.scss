@@ -13,9 +13,17 @@
     padding: 0 3rem;
   }
   transition: 0.3s ease all;
+  text-decoration: none;
 
-  h2 {
-    padding-left: 1.2rem;
+  a {
+    text-decoration: none;
+    color: $light; /* This removes underline for the anchor tag */
+
+    h2 {
+      padding-left: 1.2rem;
+      margin: 0; /* Reset margin for h2 */
+      color: inherit; /* Ensure the color of h2 matches the parent anchor */
+    }
   }
 
   &__content {
@@ -29,6 +37,7 @@
     justify-content: space-between;
     position: relative;
     z-index: 100;
+    text-decoration: none;
 
     &__logo {
       font-size: 2rem;

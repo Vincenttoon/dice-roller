@@ -45,24 +45,30 @@ const Classic = () => {
   }, []);
 
   return (
-    <div className="container">
-      <div className="dice-wrapper">
-        <img
-          src={dieOneSrc}
-          className={isRolling ? "dice shake" : "dice"}
-          alt="Die 1"
-        />
-        <img
-          src={dieTwoSrc}
-          className={isRolling ? "dice shake" : "dice"}
-          alt="Die 2"
-        />
-        {/* Add src attribute with the state variables */}
+    <div className="page">
+      <div className="title-div">
+        <h1 className="page-title">CLASSIC</h1>
       </div>
-      <p id="total"></p>
-      <button onClick={roll} disabled={isRolling}>
-        ROLL
-      </button>
+
+      <div className="container">
+        <div className="dice-wrapper">
+          <img
+            src={dieOneSrc}
+            className={isRolling ? "dice shake" : "dice"}
+            alt="Die 1"
+          />
+          <img
+            src={dieTwoSrc}
+            className={isRolling ? "dice shake" : "dice"}
+            alt="Die 2"
+          />
+          {/* Add src attribute with the state variables */}
+        </div>
+        <p id="total"></p>
+        <button onClick={roll} disabled={isRolling}>
+          ROLL
+        </button>
+      </div>
     </div>
   );
 };

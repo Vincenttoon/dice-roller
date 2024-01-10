@@ -1,12 +1,25 @@
 @import "../../styles/variables.scss";
 
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-div {
+  text-align: center;
+  margin-bottom: 20px;
+  
+  .page-title {
+    color: $light;
+    text-shadow: 1px 1px 2px $dark;
+    font-size: 6vh;
+  }
+}
+
 .container {
   width: 400px;
   padding: 50px;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
   background-color: #ffffff;
   box-shadow: 0 15px 25px rgba(50, 50, 50, 0.15);
   border-radius: 8px;
