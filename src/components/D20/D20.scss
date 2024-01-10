@@ -1,0 +1,40 @@
+@import "../../styles/variables.scss";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    .dice-wrapper {
+      display: flex;
+      gap: 25px;
+    }
+  
+    .dice {
+      border: none;
+    }
+  
+    p {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+      text-align: center;
+  
+      span {
+        margin-bottom: 5px;
+      }
+    }
+  
+    button {
+      margin-top: 10px;
+      width: 75%;
+      font-size: 1em;
+      font-family: $Yatra;       
+    }
+
+    .resultText {
+        font-size: 1.5em;
+      }
+  }
+  
