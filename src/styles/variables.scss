@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+$Poppins: 'Poppins', sans-serif;
+
+// colors
+$dark: #090046;
+$light: #F6F4FF;
+$primary: rgb(162, 162, 246);
+$bg: rgb(244, 244, 255);
+$blue: #1E00E4;
+$dark-blue:#120089;
+$light-purple:#907fff;
+$purple: #9000E4;
+$dark-purple: #5a008e;
+$yellow: #C6E400;
+$dark-yellow: #6a7a00;
+$light-yellow: #f2ff9b;
+$green: #00E490;
+$dark-green: #007a4d;
+$light-green: #94ffd8;
+$red: #E40054;
+$dark-red: #7c002e;
+$light-red: #ffb9d3;
+$grey: #76717B;
+
+// spacing
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+// border radius
+$borderRadius: 12px;
+
+// header height
+$headerHeight: 100px;
+
+@mixin breakpoint($point) {
+    @if $point == md {
+        // 768px
+        @media (min-width: 48em) {
+            @content;
+        }
+    }
+}
