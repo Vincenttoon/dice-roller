@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Dice Roller
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Dice Roller Homepage](/src/assets/ReadMe/Home-MD.jpg)
 
-## Available Scripts
+## License
+### [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+### [MIT](https://opensource.org/licenses/MIT)
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+A React and SaSS application that rolls classic dice or specialty dice.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Classic Screen](/src/assets/ReadMe/Classic-MD.jpg)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+By: [Vincent Toon](https://github.com/Vincenttoon)
 
-### `npm test`
+## Table of Contents
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Live Deployment](#live-deployment)
 
-### `npm run build`
+- [Installation](#installation)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Usage](#usage)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Things Learned](#things-learned)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Contributors](#contributors)
 
-### `npm run eject`
+- [Questions?](#questions)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Live Deployment
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Dice Roller Live Deployment](https://diceroller-vwtd.vercel.app/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Head to the repository to download or view this code: [Dice Roller](https://github.com/Vincenttoon/dice-roller)
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Users can choose between:
+1. A classic dice roll
+2. 20 sided Dice roll (One or Two at a time)
+3. 12 sided Dice roll (One or Two at a time)
+4. 10 sided Dice roll (One or Two at a time)
+5. 8 sided Dice roll (One or Two at a time)
+6. 6 sided Dice roll (One or Two at a time)
+7. 4 sided Dice roll (One or Two at a time)
+8. Go back to my personal game portfolio (future)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Go to live link and Enjoy!
 
-### Code Splitting
+## Things Learned
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Usage of `useRef`: used to create mutable object properties that persist across renders. It is often used to hold references to DOM elements or to store mutable values that don't trigger a re-render when they change.
 
-### Analyzing the Bundle Size
+- Reintroduced usage of `timeout`, based of dice animations
+- Further understand of `transform`, `breakpoints`, and `mixin` in SaSS & Css
+- Further understanding of `useEffect` and `useState`
+- Further practice with `Math.` functionality
+- More practice and implementation of `SaSS`
+- Image manipulation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributors
 
-### Making a Progressive Web App
+* All Dice (excluding classic) downloaded from [Alexandr III](https://www.shutterstock.com/g/AlexandrIII)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* Game Box Logo downloaded from [Perfect_kebab](https://www.shutterstock.com/g/TarasDubov)
 
-### Advanced Configuration
+## Questions?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Questions, comments, or concerns? Please Email me at:
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- vincenttoon22@gmail.com

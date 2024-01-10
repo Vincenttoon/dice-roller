@@ -1,12 +1,13 @@
 import React from "react";
 
-import ClassicDi from '../assets/classic/dice-4.jpg';
-import D2020 from '../assets/d20/d20-20.jpg';
-import D1212 from '../assets/d12/d12-12.jpg';
-import D1010 from '../assets/d10/d10-10.jpg';
-import D88 from '../assets/d8/d8-8.jpg';
-import D66 from '../assets/d6/d6-6.jpg';
-import D44 from '../assets/d4/d4-4.jpg';
+import ClassicDi from "../assets/classic/dice-4.jpg";
+import D2020 from "../assets/d20/d20-20.jpg";
+import D1212 from "../assets/d12/d12-12.jpg";
+import D1010 from "../assets/d10/d10-10.jpg";
+import D88 from "../assets/d8/d8-8.jpg";
+import D66 from "../assets/d6/d6-6.jpg";
+import D44 from "../assets/d4/d4-4.jpg";
+import Logo from "../assets/Logo/DR-Logo.jpg";
 
 import "../pages/Home.scss";
 
@@ -82,6 +83,7 @@ const Home = () => {
         {/* Game Box */}
         <a className="a-card" href="/coming-soon">
           <div className="card">
+            <img className="home-di" src={Logo} alt="Classic Di" />
             <h3>Game Box</h3>
           </div>
         </a>
