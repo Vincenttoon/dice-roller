@@ -76,7 +76,7 @@ const Header = () => {
             </li>
           </ul>
           <button onClick={menuToggleHandler}>
-            <a href="/future-link">Game Box</a>
+            <a href="/coming-soon">Game Box</a>
           </button>
         </nav>
         <div className={classes.header__content__toggle}>

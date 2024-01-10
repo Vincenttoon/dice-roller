@@ -1,7 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
 
-import "../D12/D12.scss";
-
 import D12Dice1 from "../../assets/d12/d1-12.jpg";
 import D12Dice2 from "../../assets/d12/d2-12.jpg";
 import D12Dice3 from "../../assets/d12/d3-12.jpg";
