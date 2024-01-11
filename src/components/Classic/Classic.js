@@ -64,10 +64,12 @@ const Classic = () => {
           />
           {/* Add src attribute with the state variables */}
         </div>
-        <p id="total"></p>
-        <button onClick={roll} disabled={isRolling}>
-          ROLL
-        </button>
+        <p className="total" id="total"></p>
+        <div className="button-div">
+          <button onClick={roll} disabled={isRolling}>
+            ROLL
+          </button>
+        </div>
       </div>
     </div>
   );

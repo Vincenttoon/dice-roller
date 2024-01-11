@@ -1,5 +1,11 @@
 @import "../styles/variables.scss";
 
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
 .card-container {
   width: 80%;
   margin-top: 30px;
@@ -66,5 +72,24 @@
         color: $light;
       }
     }
+  }
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 4vh;
+    margin-top: -2rem;
+  }
+}
+
+@media (max-width: 750px) {
+  h1 {
+    font-size: 3vh;
+    margin-top: 3rem;
+  }
+
+  .card-container {
+    margin-bottom: 2rem;
+    width: 95%;
   }
 }

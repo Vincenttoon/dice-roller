@@ -1,19 +1,28 @@
-@import './../styles/variables.scss';
+@import "./../styles/variables.scss";
 
 .container {
-    height: calc(100vh - #{$headerHeight});
-    background: linear-gradient(
-        #F6F4FF,
-        #090046
-    ) 0 100% no-repeat;
-    background-size: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: calc(100vh - #{$headerHeight});
+  background: linear-gradient(#f6f4ff, #090046) 0 100% no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    // h1 {
-    //     padding: 1.5rem 2.5rem;
-    //     background: linear-gradient(220deg, $primary, rgba($primary, .5));
-    //     border-radius: $borderRadius calc(#{$borderRadius} * 10);
-    // }
+  // h1 {
+  //     padding: 1.5rem 2.5rem;
+  //     background: linear-gradient(220deg, $primary, rgba($primary, .5));
+  //     border-radius: $borderRadius calc(#{$borderRadius} * 10);
+  // }
+}
+
+@media (max-width: 1080px) {
+    .container {
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-top: 2rem;
+  }
 }

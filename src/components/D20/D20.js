@@ -106,24 +106,26 @@ const D20 = () => {
           )}
         </div>
         <p className="resultText">{rollResult}</p>
-        <button
-          onClick={() => {
-            setRollTwo(false);
-            rollDice();
-          }}
-          disabled={isRolling}
-        >
-          ROLL ONE
-        </button>
-        <button
-          onClick={() => {
-            setRollTwo(true);
-            rollDice();
-          }}
-          disabled={isRolling}
-        >
-          ROLL TWO
-        </button>
+        <div className="button-div">
+            <button
+              onClick={() => {
+                setRollTwo(false);
+                rollDice();
+              }}
+              disabled={isRolling}
+            >
+              ROLL ONE
+            </button>
+            <button
+              onClick={() => {
+                setRollTwo(true);
+                rollDice();
+              }}
+              disabled={isRolling}
+            >
+              ROLL TWO
+            </button>
+        </div>
       </div>
     </div>
   );
