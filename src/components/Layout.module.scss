@@ -14,15 +14,3 @@
   //     border-radius: $borderRadius calc(#{$borderRadius} * 10);
   // }
 }
-
-@media (max-width: 1080px) {
-    .container {
-        margin-top: 4rem;
-    }
-}
-
-@media (max-width: 768px) {
-  .container {
-    margin-top: 2rem;
-  }
-}
